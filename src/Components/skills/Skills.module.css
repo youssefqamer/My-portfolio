@@ -1,0 +1,17 @@
+
+.skills div{
+    display: grid;
+    grid-template-columns:repeat(auto-fill, minmax(250px, 1fr)) ;
+     gap:1.4rem ;
+    }
+.skills div img{
+    text-align: center;
+    margin: auto;
+    width: 210px;
+    height: 210px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}

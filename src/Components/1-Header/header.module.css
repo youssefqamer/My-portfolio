@@ -1,0 +1,168 @@
+header{
+    justify-content: space-between;
+    padding: 0 2.4rem;
+    margin-top: 1.2rem;
+}
+nav{
+    background-color: var(--bgheader);
+    box-shadow: 20px 2px 40px rgba(35, 33, 33, .292);
+    padding: .77rem 1.6rem;
+    border-radius: 55px;
+    -webkit-border-radius: 55px;
+    -moz-border-radius: 55px;
+    -ms-border-radius: 55px;
+    -o-border-radius: 55px;
+}
+button{
+    all: unset;
+    cursor: pointer;
+    font-size: 20px;
+}
+button:active{
+  scale: .91;
+}
+ul{
+    gap: 16px;
+}
+ul li a{
+    cursor: pointer;
+    color: var(--title);
+    opacity: .9;
+    font-weight: 500;
+    font-size: .9rem;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+ul li a:hover{
+    color: var(--blue);
+    opacity: 1;
+    font-weight: 500;
+    font-size: 1rem;
+}
+/* icons styles */
+
+
+  
+.mode{
+    font-size: 1.2rem;
+}
+header button.menu{
+    display: none;
+}
+.mode,
+header button.menu{
+    background-color: var(--bgheader);
+    width: 2.4rem;
+    height: 2.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--subtitle);
+    border: 1px solid rgba(255, 99, 71, 0.126);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    box-shadow: 1px 1px 40px rgba(35,35,36,.165);
+}
+header button.menu{
+    display: none;
+}
+.mode:hover,
+header button.menu:hover{
+    color: var(--title);
+    border: 1px solid rgba(255, 99, 71, 0.626);
+}
+.closeIcon{
+    color: var(--title);
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+    font-size: 1.4rem;
+}
+.closeIcon:hover{
+    color: crimson;
+    rotate: 180deg;
+}
+  /* modal pop up */
+  .fixed{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(40, 40,48, .9);
+    z-index: 3;
+    backdrop-filter: blur(6px);
+  }
+  .modal{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    background-color: var(--secondary);
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    animation: showModal .9s 1 ;
+    -webkit-animation: showModal .9s 1 ;
+}
+
+  
+.modal li{
+    border-bottom: 1px solid var(--border);
+    padding-top: .5rem;
+    padding-bottom: .77rem;
+}
+.modal li:last-child{
+    border-bottom: none;
+    padding-bottom: .6rem;
+}
+.modal li:first-child{
+    text-align: right;
+    border-bottom: none;
+    padding-bottom: 0;
+    padding-top: .2rem;
+}
+.modal li a{
+ font-size: .9rem;
+}
+
+/* media query */
+@media  (max-width:991px){
+    nav{
+        display: none;
+    }
+    header  button.menu{
+    display: block;
+  }
+}
+@media  (max-width:500px){
+ .modal{
+    width: 95%;
+ }
+}
+/* animations */
+@keyframes showModal {
+    0%{
+        scale: 0;
+    }
+    65%{
+        scale: 1.14;
+    }
+    100%{
+        scale: 1;
+    }
+}

@@ -1,0 +1,39 @@
+.fixed a{
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.fixed button{
+    text-align: center;
+    color: white;
+    background-color: var(--blue);
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    bottom: 1rem;
+    right: 3%;
+    opacity: .8;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: var(--transition);
+    -webkit-transition: var(--transition);
+    -moz-transition: var(--transition);
+    -ms-transition: var(--transition);
+    -o-transition: var(--transition);
+}
+.fixed button:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width:767px) {
+    .fixed button{
+        width: 30px;
+        height: 30px;
+        font-size: .8rem;
+    }
+}
