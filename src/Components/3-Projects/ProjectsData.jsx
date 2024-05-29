@@ -37,13 +37,15 @@ import materialUiDashboard from '../../assets/Imags/Materialui.png'
 import quiz from '../../assets/Imags/quiz.png'
 // @ts-ignore
 import freshCart from '../../assets/Imags/freshcart.png'
+// @ts-ignore
+import todo from '../../assets/Imags/todo.png'
 const ProjectsData = () => {
 
     // let buttons=[
     //     {value:'All'},{value:'Html & Css'},{value:'Bootstrap'},{value:'Javascript'},{value:'React.js'},{value:'React.js & Bootstrap'}
     //   ]
     let buttons=[
-        {value:'All'},{value:'Html & Css'},{value:'Bootstrap'},{value:'Javascript'},{value:'React.js'}
+        {value:'All'},{value:'Html & Css'},{value:'Bootstrap'},{value:'Javascript'},{value:'React.js'},{value:'Next.js'},
       ]
     const allProjects=[
         // css
@@ -76,7 +78,11 @@ const ProjectsData = () => {
 
 
 // {title:'FreashCarttt',describtion:'FreshCart is an E-commerce project made by React.js and react query,it is fully responsive via all screens ,it includes full login and register system , the user has sidefilter for filtration the products ,the user can add to wishlist and add to cart then checkout cash or using credit card via stripe.',category:['React.js','Bootstrap' ],path:freshCart,link:'https://youssefqamer.github.io/FreshCart/'},
+
+// next.js 
+{title:'Todo App',describtion:'Fullstack Todo App using next.js , Typescript , Tailwind css , schadcn ui , prisma , Mongodb and clerk for Authentication.',category:'Next.js',path:todo,link:'https://fullstack-next-js-todo-bcaucv2cm-youssefqamers-projects.vercel.app',repoLink:'https://github.com/youssefqamer/Fullstack-Next.js-Todo-App'},
     ]
+
 
 
     const [activeButton, setActiveButton] = useState(0)
