@@ -82,7 +82,7 @@ const ProjectsData = () => {
 // {title:'FreashCarttt',describtion:'FreshCart is an E-commerce project made by React.js and react query,it is fully responsive via all screens ,it includes full login and register system , the user has sidefilter for filtration the products ,the user can add to wishlist and add to cart then checkout cash or using credit card via stripe.',category:['React.js','Bootstrap' ],path:freshCart,link:'https://youssefqamer.github.io/FreshCart/'},
 
 // next.js 
-{title:'Todo App',describtion:'Fullstack Todo App using Next.js , Typescript , Tailwind css , schadcn ui , prisma , Mongodb and clerk for Authentication.',category:'Next.js',path:todo,link:'fullstack-next-js-todo-app.vercel.app',repoLink:'https://github.com/youssefqamer/Fullstack-Next.js-Todo-App'},
+{title:'Todo App',describtion:'Fullstack Todo App using Next.js , Typescript , Tailwind css , schadcn ui , prisma , Mongodb and clerk for Authentication.',category:'Next.js',path:todo,link:'https://fullstack-next-js-todo-bcaucv2cm-youssefqamers-projects.vercel.app',repoLink:'https://github.com/youssefqamer/Fullstack-Next.js-Todo-App'},
 
 {title:'Zoom Clone',describtion:'Fullstack zoom clone using Next.js , Typescript , Tailwind css , schadcn ui ,stream and clerk for Authentication.',category:'Next.js',path:zoom,link:'https://zoom-clone-seven-blush.vercel.app/',repoLink:'https://github.com/youssefqamer/Zoom_Clone/tree/main'},
     ]
