@@ -41,6 +41,7 @@ import freshCart from '../../assets/Imags/freshcart.png'
 import todo from '../../assets/Imags/todo.png'
 // @ts-ignore
 import zoom from '../../assets/Imags/zoom.png'
+import care  from '../../assets/Imags/care_pulse.png'
 const ProjectsData = () => {
 
     // let buttons=[
@@ -85,6 +86,8 @@ const ProjectsData = () => {
 {title:'Todo App',describtion:'Fullstack Todo App using Next.js , Typescript , Tailwind css , schadcn ui , prisma , Mongodb and clerk for Authentication.',category:'Next.js',path:todo,link:'https://fullstack-next-js-todo-bcaucv2cm-youssefqamers-projects.vercel.app',repoLink:'https://github.com/youssefqamer/Fullstack-Next.js-Todo-App'},
 
 {title:'Zoom Clone',describtion:'Fullstack zoom clone using Next.js , Typescript , Tailwind css , schadcn ui ,stream and clerk for Authentication.',category:'Next.js',path:zoom,link:'https://zoom-clone-seven-blush.vercel.app/',repoLink:'https://github.com/youssefqamer/Zoom_Clone/tree/main'},
+
+{title:'Care Pulse',describtion:'CarePulse enables patients to easily manage their healthcare journey. With a user-friendly interface, patients can sign up, fill out a detailed form with their personal data, family history, current medication, and more. They can then select their preferred physician, choose a date and time, and receive confirmation of their reserved appointment.',category:'Next.js',path:care,link:'https://care-pulse-virid.vercel.app/',repoLink:'https://github.com/youssefqamer/care-pulse/tree/main'},
     ]
 
 
