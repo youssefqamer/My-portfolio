@@ -41,7 +41,8 @@ import freshCart from '../../assets/Imags/freshcart.png'
 import todo from '../../assets/Imags/todo.png'
 // @ts-ignore
 import zoom from '../../assets/Imags/zoom.png'
-import care  from '../../assets/Imags/care_pulse.png'
+// @ts-ignore
+import care  from '../../assets/Imags/care.png'
 const ProjectsData = () => {
 
     // let buttons=[
